@@ -272,6 +272,7 @@ button {
 .topbar {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 16px;
   padding: 10px 14px;
   border-bottom: 1px solid var(--border);
@@ -301,7 +302,7 @@ button {
   border: none;
   background: none;
   border-radius: 999px;
-  padding: 4px 12px;
+  padding: 4px 8px;
   font-size: 11px;
   color: var(--text-muted);
   white-space: nowrap;

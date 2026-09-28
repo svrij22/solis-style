@@ -30,10 +30,16 @@ import {
 } from "lucide-react";
 import defaultCss from "./App.css?inline";
 import uuCss from "./App.uu.css?inline";
+import studentsCss from "./App.students.css?inline";
+import libraryCss from "./App.library.css?inline";
+import umuCss from "./App.umu.css?inline";
 
 const THEMES = {
   default: { label: "Default", css: defaultCss },
   uu: { label: "UU huisstijl", css: uuCss },
+  students: { label: "Students", css: studentsCss },
+  library: { label: "Library", css: libraryCss },
+  umu: { label: "UMU", css: umuCss },
 };
 
 const MODELS = ["gpt-5.6-luna", "gpt-5.6-sol", "claude-opus-5", "llama-4-local"];
